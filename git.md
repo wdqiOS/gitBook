@@ -76,6 +76,10 @@
 - 只不过这个网站提供了允许别人通过git上传代码的功能
 
 ### 提交代码到github（当做git服务器来用）
+- `git push [地址] master`
+    + 注意：第一次提交需要输入github的用户名和密码。
+    + 示例：git push https://github.com/wdqiOS/gitBook.git master
+    + 会把当前分支的内容上传到远程的master分支上
 
 
 
