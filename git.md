@@ -81,7 +81,21 @@
     + 示例：git push https://github.com/wdqiOS/gitBook.git master
     + 会把当前分支的内容上传到远程的master分支上
 
+- `git pull [地址] master` 
+    + 示例：git pull https://github.com/wdqiOS/gitBook.git master
+    + 注意：master不是固定的，可以任意指定
+    + 会把远程分支的数据得到：（ * 注意本地要初始化一个仓储 * ）
 
+- `git clone [地址]`
++ 示例：git clone https://github.com/wdqiOS/gitBook.git
++ 会得到远程仓储相同的数据，如果多次执行会覆盖本地的内容
+
+
+## ssh方式上传代码
+- 公钥 私钥，两者之间是有关联的。
+- 生成公钥和私钥
+    + `ssh-keygen -t rsa -C "3232813737@qq.com"`
+    
 
 
 
