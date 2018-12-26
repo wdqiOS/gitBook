@@ -96,7 +96,9 @@
 - 生成公钥和私钥
     + `ssh-keygen -t rsa -C "3232813737@qq.com"`
 
-## 
+## 在push和pull操作进行时
+- 先pull，再push
+
 
 
 
