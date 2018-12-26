@@ -95,6 +95,7 @@
 - 公钥 私钥，两者之间是有关联的。
 - 生成公钥和私钥
     + `ssh-keygen -t rsa -C "3232813737@qq.com"`
+- 要将公钥中的内容拷贝粘贴到服务端的SSH keys 中
 
 ## 在push和pull操作进行时
 - 先pull，再push
