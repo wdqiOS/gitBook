@@ -101,7 +101,6 @@
 - 先pull，再push
 
 - 命令：`git remote add origin git@github.com:wdqiOS/gitBook.git`
-        `git pull origin -u master`
         `git push -u origin master`
 - 注意：执行了以上三个命令之后，，就可以使用git pull / git push 命令进行代码的pull 和 push 操作了
 - 当我们在push时，加上-u参数，那么在下一次push时
