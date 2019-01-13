@@ -1,3 +1,10 @@
+## 初始化 Git 仓库之前需要准备
+- .gitignore 
+    + 忽略不需要提交的文件 例如：node_modules(npm 安装的库) .idea(webstorm的配置) .VScode .git 等
+- READ.md
+    + 项目的描述
+- LICENSE 
+    + 开源协议(具体参照：https://www.zhihu.com/question/19568896)
 ## 初始化Git仓储/(仓库)
 - 这个仓库会存放，git对我们项目代码进行备份的文件
 - 命令:`git init`
